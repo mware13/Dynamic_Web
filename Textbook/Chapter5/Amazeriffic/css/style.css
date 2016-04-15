@@ -1,0 +1,185 @@
+body {
+    background: #f9e933;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header, main, footer {
+    min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+    max-width: 855px;
+    margin: auto;
+}
+
+header {
+    background: white;
+    overflow: auto;
+    padding: 25px 0 25px 0;
+}
+
+header h1 {
+    float: left;
+    width: 570px;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 700;
+    color: #B33000;
+}
+
+h2 {
+	font-size: 2em;
+	padding: 10px 0 10px 0;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 1.25em;
+	padding: 10px 0 10px 0;
+	margin-top: 30px;
+	font-weight: 500;
+}
+
+h4 {
+	font-size: 1.25em;
+	padding: 20px 0 20px 0;
+	font-weight: 500;
+}
+
+h5 {
+	font-size: 1.25em;
+	padding: 20px 0 20px 0;
+	font-weight: 500;
+}
+
+header nav {
+    float: right;
+    width: 285px;
+    text-align: right;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #B33000;
+	padding-right: 4px;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+    background: #fff;
+    padding: 40px;
+}
+
+main .left {
+    float: left;
+    width: 570px;
+}
+
+main .right {
+    float: right;
+    width: 285px;
+}
+
+main .right img {
+	float: right;
+	width: 60%;
+	height: 60%;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background-color: #EEE000;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content p {
+    color: red;
+    margin: 30px 0 0 0;
+}
+
+main .content p:first-child {
+    margin-top: 10px;
+}
+
+main .content input {
+    font-size: 1.5em;
+}
+
+.tabs a span {
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #DDD000;
+    padding: 5px;
+    color: #B33000;
+}
+
+.tabs a span.active {
+    background: #EEE000;
+}
+
+footer {
+	margin: 20px 0 20px 0;
+}
+
+footer p {
+	padding: 2px 0 2px 0;
+}
+
+footer .container .left {
+    float: left;
+}
+
+footer .sitemap {
+    float: right;
+    /*width: 285px;*/
+}
+
+footer .sitemap .left {
+    float: left;
+}
+
+footer .sitemap .right {
+    float: right;
+}
+
+footer ul {
+	width: 230px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #B33000;
+	padding-right: 4px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}

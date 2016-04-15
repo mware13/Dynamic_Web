@@ -1,0 +1,25 @@
+body {
+	width: 100%;
+	font-family: arial;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	transition: 0.5s background-color;
+}
+
+#container {
+}
+
+#mood {
+	font-size:100px;
+	text-align: center;
+}
+
+a:hover {
+	background-color: #555555;
+}

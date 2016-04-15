@@ -1,0 +1,47 @@
+/** {
+	color: red;
+}
+
+h1 {
+	color: red;
+}
+
+.important {
+	color: red;
+}
+
+.relevant p {
+	color: red;
+}
+
+.relevant p:first-child  {
+	color: red;
+}
+
+.relevant p:nth-child(3)  {
+	color: red;
+}
+
+.relevant p:nth-child(7)  {
+	color: red;
+}
+
+p  {
+	color: red;
+}
+
+body > .a  {
+	color: red;
+}
+
+.a  {
+	color: red;
+}
+
+.relevant .a  {
+	color: red;
+}*/
+
+.relevant p:nth-child(2), p:nth-child(7)  {
+	color: red;
+}

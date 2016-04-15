@@ -1,0 +1,28 @@
+body {
+	max-width: 1200px;
+	margin: auto;
+	font-family: arial, sans-serif;
+	padding: 30px;
+}
+
+h1 {
+	background-image: url('../img/maker-logo.png');
+	background-repeat: no-repeat;
+	margin: 28px 0 0 0;
+	width: 225px;
+	height: 90px;
+}
+
+hr {
+	height: 3px;
+	background: #333333;
+}
+
+
+.stuff {
+	float: left;
+	padding-left: 7.5%;
+	padding-top: 50px;
+	text-align: center;
+}
+

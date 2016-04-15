@@ -1,0 +1,15 @@
+input[type=text] {
+	border-style: none;
+	background-color: grey;
+	color: white;
+	padding: 5px;
+}
+
+input:focus {
+	outline:none;
+}
+
+input[type=text]:focus {
+	border-style: solid;
+	border-color: black;
+}

@@ -1,0 +1,35 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	background: url(images/desert.jpg) no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+#topHeader {
+	background: #333333;
+	height: 50px;
+	padding: 10px;
+}
+
+#topHeader h1 {
+	font-family: arial;
+}
+
+.box {
+	width: 20%px;
+	max-width: 200px;
+	padding: 10px;
+	margin: 20px;
+	background: white;
+}
+
+.innerBox {
+	background: red;
+	width: 50%;
+	float: right;
+}

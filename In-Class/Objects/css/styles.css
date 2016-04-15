@@ -1,0 +1,25 @@
+body {
+}
+
+figure {
+	width: 25%;
+}
+
+figure img {
+	width: 100%;
+}
+
+figcaption {
+	text-align: right;
+}
+
+.star {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url(../images/Gold_Star_off.svg);
+}
+
+.star.starOn {
+	background: url(../images/Gold_Star.svg);
+}

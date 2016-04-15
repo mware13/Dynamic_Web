@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    
+	<head>
+		<title>Form Elements</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+    
+    <body>
+        
+        <div class="fields">
+	    	<input type="text" name="text">
+	    	<input type="number" name="num">
+	    	<input type="password" name="pass">
+	    	<input type="email" name="email">
+	    	<input type="url" name="url">
+    	</div>
+
+    	<br>
+
+    	<div class="radioDiv">
+	    	<input type="radio" name="radio" value="radio1" checked>Radio 1
+	    	<br>
+	    	<input type="radio" name="radio" value="radio2">Radio 2
+	    	<br>
+	    	<input type="radio" name="radio" value="radio3">Radio 3
+    	</div>
+
+    	<br>
+    	<div class="checkDiv">
+	    	<input type="checkbox" name="check" value="check1">Check 1
+	    	<br>
+	    	<input type="checkbox" name="check" value="check2">Check 2
+	    	<br>
+	    	<input type="checkbox" name="check" value="check3">Check 3
+    	</div>
+
+    	<br>
+
+   		Range: <input type="range" name="range" step="10">
+   		<br>
+   		<input type="color" name="color">
+   		<br>
+   		<input type="date" name="date">
+   		<br>
+   		<input type="file" name="file">
+
+   		<br>
+
+   		<div class="textArea">
+   			<textarea cols="30" rows="4" placeholder="Type some stuff"></textarea>
+   		</div>
+
+   		<br>
+
+   		<div class="selection">
+   		<select>
+   			<option value ="select1" selected>Select 1</option>
+   			<option value ="select2">Select 2</option>
+   			<option value ="select3">Select 3</option>
+   		</select>
+   		</div>
+
+   		<br>
+
+   		<div class="autocomplete">
+   		<input type="text" id="fruit" list="suggest">
+   		<datalist id="suggest">
+   			<option>Apple</option>
+   			<option>Banana</option>
+   			<option>Blackberry</option>
+   		</datalist>
+   		</div>
+
+    </body>
+    
+</html>
